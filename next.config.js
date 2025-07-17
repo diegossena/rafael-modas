@@ -5,5 +5,6 @@ const config = {
   poweredByHeader: false,
   assetPrefix: '/rafael-modas',
   compiler: { styledComponents: { ssr: true } },
+  distDir: 'docs'
 }
 module.exports = config
