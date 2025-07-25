@@ -4,8 +4,9 @@ const data = Array.from(Array(38), (_, i) => {
   return {
     id,
     image: String(id).padStart(3, '0') + '.jpeg',
-    price: 10
+    price: 10,
+
   }
 })
 
-fs.writeFileSync('items.json', JSON.stringify(data))
+fs.writeFileSync('./src/items.json', JSON.stringify(data))

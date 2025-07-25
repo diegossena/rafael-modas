@@ -3,7 +3,6 @@ import { NextPage } from 'next'
 import * as S from 'styles'
 import items from 'items.json'
 import * as I from 'components/Icons'
-import Fade from 'components/Fade'
 import { CartModal, item_t } from 'components/CartModal'
 // page
 export const IndexPage: NextPage = () => {
